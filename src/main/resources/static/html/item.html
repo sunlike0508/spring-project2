@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 560px;
+        } </style>
+</head>
+<body>
+<div class="container">
+    <div class="py-5 text-center"><h2>상품 상세</h2>
+    </div>
+    <div>
+        <label for="itemId">상품 ID</label>
+        <input class="form-control" id="itemId" name="itemId" readonly
+               type="text" value="1">
+    </div>
+    <div>
+        <label for="itemName">상품명</label>
+        <input class="form-control" id="itemName" name="itemName" readonly
+               type="text" value="상품A"></div>
+    <div>
+        <label for="price">가격</label>
+        <input class="form-control" id="price" name="price" readonly type="text" value="10000">
+    </div>
+    <div>
+        <label for="quantity">수량</label>
+        <input class="form-control" id="quantity" name="quantity" readonly
+               type="text" value="10">
+    </div>
+    <hr class="my-4">
+    <div class="row">
+        <div class="col">
+            <button class="w-100 btn btn-primary btn-lg" onclick="location.href='editForm.html'" type="button">상품 수정
+            </button>
+        </div>
+        <div class="col">
+            <button class="w-100 btn btn-secondary btn-lg" onclick="location.href='items.html'" type="button">목록으로
+            </button>
+        </div>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>
